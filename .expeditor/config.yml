@@ -3,6 +3,11 @@ base_config:
 
 project:
   alias: expeditor-acceptance
+  
+staging_areas:
+  - demo:
+      workload: generic_workload_published:*
+      timeout: 2m
 
 pipelines:
   - verify:
