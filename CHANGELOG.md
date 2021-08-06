@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.116 -->
-## [0.0.116](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.116) (2021-06-28)
+<!-- latest_release 0.0.117 -->
+## [0.0.117](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.117) (2021-08-06)
 
 #### Merged Pull Requests
-- make timeout 60 mins [#140](https://github.com/chef-boneyard/expeditor-acceptance/pull/140) ([nkierpiec](https://github.com/nkierpiec))
+- next verse, same as the first [#130](https://github.com/chef-boneyard/expeditor-acceptance/pull/130) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot]))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- next verse, same as the first [#130](https://github.com/chef-boneyard/expeditor-acceptance/pull/130) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.117 -->
 - make timeout 60 mins [#140](https://github.com/chef-boneyard/expeditor-acceptance/pull/140) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.116 -->
 - add timeout &gt; 60 [#138](https://github.com/chef-boneyard/expeditor-acceptance/pull/138) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.115 -->
 - remove pr trigger, should remove webhook [#134](https://github.com/chef-boneyard/expeditor-acceptance/pull/134) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.114 -->
