@@ -26,22 +26,22 @@ pipelines:
   - habitat/build:
       canary: true
 
-merge_actions:
-  - bash:.expeditor/create-another-pr.sh
-  - create_github_issue:.expeditor/templates/pr_merge.mustache
-  - built_in:bump_version:
-      ignore_labels:
-        - "Version: Skip Bump"
-  - bash:.expeditor/update_version.sh:
-      only_if: built_in:bump_version
-  - built_in:update_changelog:
-      ignore_labels:
-        - "Changelog: Skip Update"
-  - trigger_pipeline:habitat/build
-  - trigger_pipeline:docker/build
-  - trigger_pipeline:omnibus/harmony-acceptance
-
 subscriptions:
+  - workload: pull_request_merged:{{github_repo}}:{{release_branch}}:*
+    actions:
+      - bash:.expeditor/create-another-pr.sh
+      - create_github_issue:.expeditor/templates/pr_merge.mustache
+      - built_in:bump_version:
+          ignore_labels:
+            - "Version: Skip Bump"
+      - bash:.expeditor/update_version.sh:
+          only_if: built_in:bump_version
+      - built_in:update_changelog:
+          ignore_labels:
+            - "Changelog: Skip Update"
+      - trigger_pipeline:habitat/build
+      - trigger_pipeline:docker/build
+      - trigger_pipeline:omnibus/harmony-acceptance
   - workload: generic_workload_published:acceptance_tests:*
     actions:
       - bash:.expeditor/trigger_pr_merge_tests.sh
@@ -49,5 +49,6 @@ subscriptions:
     actions:
       - built_in:promote_habitat_packages
   - workload: project_promoted:{{agent_id}}:*
+    delay: 30m
     actions:
       - built_in:promote_docker_images
