@@ -29,7 +29,6 @@ pipelines:
 subscriptions:
   - workload: pull_request_merged:{{github_repo}}:{{release_branch}}:*
     actions:
-#       - bash:.expeditor/create-another-pr.sh
       - create_github_issue:.expeditor/templates/pr_merge.mustache
       - built_in:bump_version:
           ignore_labels:
@@ -55,4 +54,4 @@ subscriptions:
   - workload: project_promoted:{{agent_id}}:*
     pull_request: true
     actions:
-      - bash:.expeditor/create-another-pr.sh
+      - bash:.expeditor/songs.sh
