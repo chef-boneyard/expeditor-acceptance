@@ -2,8 +2,8 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.122 -->
-## [0.0.122](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.122) (2021-09-01)
+<!-- latest_release 0.0.123 -->
+## [0.0.123](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.123) (2021-09-01)
 
 #### Merged Pull Requests
 - next verse, same as the first [#149](https://github.com/chef-boneyard/expeditor-acceptance/pull/149) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot]))
