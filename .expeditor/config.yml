@@ -48,7 +48,11 @@ subscriptions:
   - workload: buildkite_hab_build_group_published:{{agent_id}}:*
     actions:
       - built_in:promote_habitat_packages
+  # - workload: project_promoted:{{agent_id}}:*
+  #   delay: 30m
+  #   actions:
+  #     - built_in:promote_docker_images
   - workload: project_promoted:{{agent_id}}:*
-    delay: 30m
+    pull_request: true
     actions:
-      - built_in:promote_docker_images
+      - bash:.expeditor/create-another-pr.sh
