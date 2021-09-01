@@ -55,6 +55,6 @@ subscriptions:
     pull_request:
       title: "{{event}}:{{name}}"
       description: .expeditor/templates/promoted.mustache
-      branch: "expeditor/{{event}}-{{name}}"
+      branch: "expeditor/{{event}}"
     actions:
       - bash:.expeditor/songs.sh
