@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.127 -->
-## [0.0.127](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.127) (2021-09-01)
+<!-- latest_release 0.0.128 -->
+## [0.0.128](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.128) (2021-09-02)
 
 #### Merged Pull Requests
-- project_promoted:expeditor-acceptance (0.0.126) [#162](https://github.com/chef-boneyard/expeditor-acceptance/pull/162) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot]))
+- project_promoted:expeditor-acceptance (0.0.127) [#164](https://github.com/chef-boneyard/expeditor-acceptance/pull/164) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot]))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- project_promoted:expeditor-acceptance (0.0.127) [#164](https://github.com/chef-boneyard/expeditor-acceptance/pull/164) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.128 -->
 - project_promoted:expeditor-acceptance (0.0.126) [#162](https://github.com/chef-boneyard/expeditor-acceptance/pull/162) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.127 -->
 - Expeditor/project promoted colon chef boneyard slash expeditor acceptance colon master colon 0.0.124 colon 2021 09 01 t16 colon 51 colon 52+00 colon 00 [#160](https://github.com/chef-boneyard/expeditor-acceptance/pull/160) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.126 -->
 - Changes in response to chef-boneyard/expeditor-acceptance:master (0.0.124) [#157](https://github.com/chef-boneyard/expeditor-acceptance/pull/157) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.125 -->
