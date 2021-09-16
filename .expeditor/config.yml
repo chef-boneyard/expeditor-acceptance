@@ -1,5 +1,5 @@
 project:
-  alias: expeditor-acceptance
+  alias: expeditor-boneyard
   
 staging_areas:
   - demo:
