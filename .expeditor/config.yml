@@ -6,6 +6,7 @@ staging_areas:
       workload: generic_workload_published:*
       timeout: 2m
 
+
 pipelines:
   - verify:
       public: true
