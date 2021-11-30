@@ -56,4 +56,3 @@ subscriptions:
       branch: "expeditor/{{name}}:{{event}}"
     actions:
       - bash:.expeditor/songs.sh
-      - built_in:promote_docker_images
