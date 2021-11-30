@@ -7,8 +7,8 @@ image=true:
     tags:
       - expeditor:final-channel-tags={{major}}.{{minor}}-{{git_sha}}
 
-image=true2
-  image: 'artifactory.chef.co/true'
+image=true2:
+  image: 'artifactory.chef.co/releng/true'
   context: .
   tags:
     - '{env.VERSION}'
