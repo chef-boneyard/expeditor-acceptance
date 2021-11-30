@@ -3,3 +3,16 @@ image=true:
   context: .
   tags:
     - '{env.VERSION}'
+  annotations:
+    tags:
+      - expeditor:final-channel-tags={{major}}.{{minor}}-{{git_sha}}
+
+image=true2
+  image: 'artifactory.chef.co/true'
+  context: .
+  tags:
+    - '{env.VERSION}'
+  annotations:
+    tags:
+      - expeditor:final-channel-tags={{major}}.{{minor}}-{{git_sha}}
+
