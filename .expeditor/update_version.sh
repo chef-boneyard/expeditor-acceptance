@@ -1,7 +1,8 @@
 #!/bin/bash
 
 set -evx
-
+ls -al
+ls -al .expeditor
 version="$(cat VERSION)"
 
 sed -i -r "s/^(\\s*)VERSION = \".+\"/\\1VERSION = \"${version}\"/" lib/version.rb
