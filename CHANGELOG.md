@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.129 -->
-## [0.0.129](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.129) (2021-09-02)
+<!-- latest_release 0.0.130 -->
+## [0.0.130](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.130) (2021-12-01)
 
 #### Merged Pull Requests
-- project_promoted:expeditor-acceptance (0.0.128) [#166](https://github.com/chef-boneyard/expeditor-acceptance/pull/166) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot]))
+- add pwd statement [#191](https://github.com/chef-boneyard/expeditor-acceptance/pull/191) ([mimaslanka](https://github.com/mimaslanka))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- add pwd statement [#191](https://github.com/chef-boneyard/expeditor-acceptance/pull/191) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.130 -->
 - project_promoted:expeditor-acceptance (0.0.128) [#166](https://github.com/chef-boneyard/expeditor-acceptance/pull/166) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.129 -->
 - project_promoted:expeditor-acceptance (0.0.127) [#164](https://github.com/chef-boneyard/expeditor-acceptance/pull/164) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.128 -->
 - project_promoted:expeditor-acceptance (0.0.126) [#162](https://github.com/chef-boneyard/expeditor-acceptance/pull/162) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.127 -->
