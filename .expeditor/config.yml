@@ -36,6 +36,11 @@ subscriptions:
             - "Version: Skip Bump"
       - bash:.expeditor/update_version.sh:
           only_if: built_in:bump_version
+      - built_in:publish_helm_charts:
+          only_if: bash:.expeditor/update_version.sh
+          only_if_modified:
+            - charts/*
+            - Dockerfile
       - built_in:update_changelog:
           ignore_labels:
             - "Changelog: Skip Update"
