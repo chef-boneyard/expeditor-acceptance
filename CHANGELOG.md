@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.132 -->
-## [0.0.132](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.132) (2021-12-09)
+<!-- latest_release 0.0.133 -->
+## [0.0.133](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.133) (2021-12-09)
 
 #### Merged Pull Requests
-- Add the new action [#198](https://github.com/chef-boneyard/expeditor-acceptance/pull/198) ([mimaslanka](https://github.com/mimaslanka))
+- Fix config error [#200](https://github.com/chef-boneyard/expeditor-acceptance/pull/200) ([mimaslanka](https://github.com/mimaslanka))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Fix config error [#200](https://github.com/chef-boneyard/expeditor-acceptance/pull/200) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.133 -->
 - Add the new action [#198](https://github.com/chef-boneyard/expeditor-acceptance/pull/198) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.132 -->
 - Update docker settings [#195](https://github.com/chef-boneyard/expeditor-acceptance/pull/195) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.131 -->
 - add pwd statement [#191](https://github.com/chef-boneyard/expeditor-acceptance/pull/191) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.130 -->
