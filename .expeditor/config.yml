@@ -10,6 +10,9 @@ staging_areas:
       workload: generic_workload_published:*
       timeout: 2m
 
+helm_charts:
+  - charts/true
+
 pipelines:
   - verify:
       public: true
