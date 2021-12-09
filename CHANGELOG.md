@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.134 -->
-## [0.0.134](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.134) (2021-12-09)
+<!-- latest_release 0.0.135 -->
+## [0.0.135](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.135) (2021-12-09)
 
 #### Merged Pull Requests
-- Dummy Change [#202](https://github.com/chef-boneyard/expeditor-acceptance/pull/202) ([mimaslanka](https://github.com/mimaslanka))
+- Checking publish helm action [#214](https://github.com/chef-boneyard/expeditor-acceptance/pull/214) ([mimaslanka](https://github.com/mimaslanka))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Checking publish helm action [#214](https://github.com/chef-boneyard/expeditor-acceptance/pull/214) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.135 -->
 - Dummy Change [#202](https://github.com/chef-boneyard/expeditor-acceptance/pull/202) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.134 -->
 - Fix config error [#200](https://github.com/chef-boneyard/expeditor-acceptance/pull/200) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.133 -->
 - Add the new action [#198](https://github.com/chef-boneyard/expeditor-acceptance/pull/198) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.132 -->
