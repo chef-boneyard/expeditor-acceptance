@@ -26,6 +26,10 @@ unless windows?
   dependency 'discord'
 end
 
+# 1.1.1i+ builds on m1 and we don't reasonably expect 1.0.2
+# to be made buildable on m1.
+override :openssl, version: "1.1.1l" if mac_os_x?
+
 exclude '\.git*'
 exclude 'bundler\/git'
 exclude 'man\/'
@@ -36,11 +40,14 @@ end
 
 package :pkg do
   identifier 'com.getchef.harmony'
-  signing_identity 'Developer ID Installer: Chef Software, Inc. (EU3VF8YLX2)'
+  signing_identity 'Chef Software, Inc. (EU3VF8YLX2)'
 end
 compress :dmg
 
+project_location_dir = name
 package :msi do
-  upgrade_code '3AA89B1F-D8F3-4D46-8CB2-534C8313DBFD'
-  signing_identity "E05FF095D07F233B78EB322132BFF0F035E11B5B", machine_store: true
+  fast_msi true
+  upgrade_code "3AA89B1F-D8F3-4D46-8CB2-534C8313DBFD"
+  signing_identity "AF21BA8C9E50AE20DA9907B6E2D4B0CC3306CA03", machine_store: true
+  parameters ProjectLocationDir: project_location_dir
 end
