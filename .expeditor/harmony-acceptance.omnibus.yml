@@ -12,8 +12,7 @@ builder-to-testers-map:
   # aix-7.1-powerpc:
   #   - aix-7.1-powerpc
   #   - aix-7.2-powerpc
-  debian-8-x86_64:
-    - debian-8-x86_64
+  debian-9-x86_64:
     - debian-9-x86_64
   el-6-i686:
     - el-6-i686
@@ -27,10 +26,9 @@ builder-to-testers-map:
   freebsd-11-amd64:
     - freebsd-11-amd64
     - freebsd-12-amd64
-  mac_os_x-10.14-x86_64:
-    - mac_os_x-10.14-x86_64
+  mac_os_x-10.15-x86_64:
     - mac_os_x-10.15-x86_64
-    - mac_os_x-11.0-x86_64
+    - mac_os_x-11-x86_64
   sles-12-x86_64:
     - sles-12-x86_64
     - sles-15-x86_64
