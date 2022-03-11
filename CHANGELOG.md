@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.138 -->
-## [0.0.138](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.138) (2022-02-22)
+<!-- latest_release 0.0.139 -->
+## [0.0.139](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.139) (2022-03-11)
 
 #### Merged Pull Requests
-- Force action to occur [#224](https://github.com/chef-boneyard/expeditor-acceptance/pull/224) ([mimaslanka](https://github.com/mimaslanka))
+- Update config.yml [#231](https://github.com/chef-boneyard/expeditor-acceptance/pull/231) ([mimaslanka](https://github.com/mimaslanka))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Update config.yml [#231](https://github.com/chef-boneyard/expeditor-acceptance/pull/231) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.139 -->
 - Force action to occur [#224](https://github.com/chef-boneyard/expeditor-acceptance/pull/224) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.138 -->
 - Dummy change for new ops cluster [#219](https://github.com/chef-boneyard/expeditor-acceptance/pull/219) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.137 -->
 - Fix pipeline failures [#216](https://github.com/chef-boneyard/expeditor-acceptance/pull/216) ([jayashrig158](https://github.com/jayashrig158)) <!-- 0.0.136 -->
