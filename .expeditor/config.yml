@@ -8,7 +8,7 @@ slack:
 staging_areas:
   - demo:
       workload: generic_workload_published:*
-      timeout: 2m
+      timeout: 1m
 
 helm_charts:
   - charts/true
