@@ -6,3 +6,4 @@ image=true:
   annotations:
     tags:
       - expeditor:final-channel-tags={{major}}.{{minor}}-{{git_sha}}
+
