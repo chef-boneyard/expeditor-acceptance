@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.140 -->
-## [0.0.140](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.140) (2022-03-15)
+<!-- latest_release 0.0.141 -->
+## [0.0.141](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.141) (2022-04-07)
 
 #### Merged Pull Requests
-- Mimaslanka/update-artifactory [#234](https://github.com/chef-boneyard/expeditor-acceptance/pull/234) ([mimaslanka](https://github.com/mimaslanka))
+- Force change [#239](https://github.com/chef-boneyard/expeditor-acceptance/pull/239) ([mimaslanka](https://github.com/mimaslanka))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Force change [#239](https://github.com/chef-boneyard/expeditor-acceptance/pull/239) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.141 -->
 - Mimaslanka/update-artifactory [#234](https://github.com/chef-boneyard/expeditor-acceptance/pull/234) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.140 -->
 - Update config.yml [#231](https://github.com/chef-boneyard/expeditor-acceptance/pull/231) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.139 -->
 - Force action to occur [#224](https://github.com/chef-boneyard/expeditor-acceptance/pull/224) ([mimaslanka](https://github.com/mimaslanka)) <!-- 0.0.138 -->
