@@ -11,7 +11,8 @@ staging_areas:
       timeout: 1m
 
 helm_charts:
-  
+  - charts/true
+
 pipelines:
   - verify:
       public: true
